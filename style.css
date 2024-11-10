@@ -1,0 +1,79 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul a {
+    color: lightgray;
+}
+
+footer nav ul a {
+    color: red;
+}
+
+article h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+article p:first-letter {
+    font-size: 5rem;
+    color: lightgray;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+footer p {
+    color: lightgray;
+}
+
+article p a {
+    color: red;
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+date{
+    font-size: 1.8rem;
+    padding-bottom: -20%;
+    color: lightgray;
+    font-weight: lighter;
+
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
